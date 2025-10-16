@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>introduction to table</h2>
+    <table border="1" cellpadding="20" cellspacing="10"> >
+        <thead>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr></thead>
+        <tbody>
+        <tr>
+            <td rowspan="2">
+                <table border="1" cellpadding="20" cellspacing="10">
+                    <tr>
+                        <td>John</td>
+                        <td>122</td>
+                    </tr>
+                    <tr>
+                        <td>Doe</td>
+                        <td>33</td>
+                    </tr>
+
+                </table>
+            </td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">This is the table footer</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
